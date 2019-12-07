@@ -15,9 +15,12 @@
 # Input & Output 
  ```
 Input 1 - If the word is present in the document.
-Output 1-
+Output 1 -
+'''
 ![Tapsearch1](https://github.com/marvin08/TapSearch-Project/blob/master/Screenshot%20from%202019-12-07%2017-13-01.png)
 
+'''
 Input 2 - If the word is not present in the document.
-Output 2-
+Output 2 -
+'''
 ![Tapsearch2](https://github.com/marvin08/TapSearch-Project/blob/master/Screenshot%20from%202019-12-07%2017-13-28.png)
