@@ -6,14 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </head>
@@ -28,7 +22,7 @@
             {% endfor %}
         </h3>
         {% else %}
-            <h3> Word not present </h3>
+            <h3> Not found!</h3>
         
         {% endif %}
         
@@ -41,7 +35,7 @@
         <div class="container">
 
                 {% if length != 0 %}
-                    <h2> All paragraph details</h2>
+                    <h2> Details</h2>
                     <br>
             
 
@@ -60,7 +54,7 @@
             <form action="/">
                 <div class="form-group">
                     <hr>
-            <button type="submit" class="btn btn-warning" > Back </button>
+            <button type="submit" class="btn btn-dark" > Go back </button>
     
             </div>
     
